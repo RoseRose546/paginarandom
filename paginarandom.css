@@ -1,0 +1,68 @@
+body {
+    background: rgb(219, 210, 210);
+}
+header {
+    width: 100%;
+    overflow: hidden;
+    background: rgb(25, 16, 109);
+    color:whitesmoke;
+    margin-bottom:20px;
+}
+.logo {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    font-size: 50px;
+    line-height: 90px;
+    float: left;}
+
+.wrapper {
+        width: 80%;
+        max-width: 1000px;
+    margin: auto;
+        overflow: hidden;
+    }
+    
+ header nav {
+        float: left;
+        line-height: 100px
+    }
+header nav a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        line-height: normal;
+        font-size: 20px;
+        font-weight: bold;
+    }
+header nav a:hover {
+        background:#f56f3a;
+        border-radius: 50px;
+    }
+    .imagen {
+        float: right;
+        margin: auto;
+        overflow: hidden;
+        
+    }
+.grid01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 150px;
+}
+.gridd {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 150px;
+}
+
+.grid22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 150px;
+}
